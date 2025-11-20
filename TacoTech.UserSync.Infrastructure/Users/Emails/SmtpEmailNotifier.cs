@@ -34,6 +34,7 @@ namespace TacoTech.UserSync.Infrastructure.Users.Emails
         {
             using var client = new SmtpClient(_settings.Host, _settings.Port)
             {
+                UseDefaultCredentials = false,
                 Credentials = new NetworkCredential(_settings.Username, _settings.Password),
                 EnableSsl = _settings.EnableSsl
             };
