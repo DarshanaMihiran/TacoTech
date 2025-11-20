@@ -152,18 +152,18 @@ dotnet tool update -g dotnet-ef
 ### Add Initial Migration
 
 ```bash
-dotnet ef migrations add InitialCreate \
-  -p src/TacoTech.UserSync.Infrastructure \
-  -s src/TacoTech.UserSync.Api \
-  -o Users/Persistence/Migrations
+dotnet ef migrations add InitialCreate `
+-p TacoTech.UserSync.Infrastructure `
+-s TacoTech.UserSync.Api `
+-o Users/Persistence/Migrations
 ```
 
 ### Update Database
 
 ```bash
-dotnet ef database update \
-  -p src/TacoTech.UserSync.Infrastructure \
-  -s src/TacoTech.UserSync.Api
+dotnet ef database update `
+-p TacoTech.UserSync.Infrastructure `
+-s TacoTech.UserSync.Api
 ```
 
 SQLite file appears under:
@@ -257,7 +257,7 @@ http://localhost:5001
 
 ---
 
-## 📝 Logging
+## Logging
 
 ### Console output appears automatically when running:
 
