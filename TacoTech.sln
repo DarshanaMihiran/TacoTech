@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoTech.UserSync.Api", "TacoTech.UserSync.Api\TacoTech.UserSync.Api.csproj", "{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoTech.UserSync.Domain", "TacoTech.UserSync.Domain\TacoTech.UserSync.Domain.csproj", "{17157F29-342A-4D69-8E21-075C45BEE286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoTech.UserSync.Application", "TacoTech.UserSync.Application\TacoTech.UserSync.Application.csproj", "{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoTech.UserSync.Infrastructure", "TacoTech.UserSync.Infrastructure\TacoTech.UserSync.Infrastructure.csproj", "{52AAD67B-0AC2-4FD9-A744-6610399CAB21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoTech.UserSync.Application.Tests", "TacoTect.UserSync.Tests\TacoTech.UserSync.Application.Tests.csproj", "{1399CEBB-6207-4C64-9513-277399C61EE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{86FC1FC9-13B4-4E54-B575-E48B82B95E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17157F29-342A-4D69-8E21-075C45BEE286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17157F29-342A-4D69-8E21-075C45BEE286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17157F29-342A-4D69-8E21-075C45BEE286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17157F29-342A-4D69-8E21-075C45BEE286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AAD67B-0AC2-4FD9-A744-6610399CAB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AAD67B-0AC2-4FD9-A744-6610399CAB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AAD67B-0AC2-4FD9-A744-6610399CAB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AAD67B-0AC2-4FD9-A744-6610399CAB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1399CEBB-6207-4C64-9513-277399C61EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1399CEBB-6207-4C64-9513-277399C61EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1399CEBB-6207-4C64-9513-277399C61EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1399CEBB-6207-4C64-9513-277399C61EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA61F5CD-F4E6-46B9-B68E-7ECBCC8F8202} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{17157F29-342A-4D69-8E21-075C45BEE286} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BD5BC1E6-31B9-4464-8EFE-D76AC99B18F7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{52AAD67B-0AC2-4FD9-A744-6610399CAB21} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1399CEBB-6207-4C64-9513-277399C61EE4} = {86FC1FC9-13B4-4E54-B575-E48B82B95E8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F7F26E5-72B6-4C16-A7B2-5E8E435BBA36}
+	EndGlobalSection
+EndGlobal

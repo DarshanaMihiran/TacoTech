@@ -1,0 +1,6 @@
+@TacoTech_HostAddress = http://localhost:5222
+
+GET {{TacoTech_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
